@@ -1,0 +1,16 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray: #828282;
+
+  --container-width: 1052px;
+  --container-padding-x: 24px;
+
+  --container-width-small: 1000px;
+  --container-padding-x-large: 50px;
+
+  --section-padding-y-large: 90px;
+  --section-padding-y-small: 60px;
+
+  --transition-duration: 0.2s;
+}

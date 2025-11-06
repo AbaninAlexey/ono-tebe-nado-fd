@@ -1,3 +1,9 @@
+@import "variables.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -5,9 +11,17 @@
 }
 
 body {
-  width: 1100px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  color: var(--color-black);
   font-family: Raleway, sans-serif;
+  background-color: var(--color-white);
+  font-size: 20px;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
@@ -25,8 +39,28 @@ blockquote {
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
 a {
   color: inherit;
+  display: inline-flex;
+  text-underline-offset: 4px;
 }
 
 img {
@@ -35,4 +69,12 @@ img {
 
 button {
   font: inherit;
+}
+
+a {
+  transition-duration: var(--transition-duration);
+
+  &:hover {
+    color: var(--color-gray);
+  }
 }
