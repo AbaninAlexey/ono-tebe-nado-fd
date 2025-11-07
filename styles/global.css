@@ -1,5 +1,4 @@
 @import "variables.css";
-@import "../fonts/fonts.css";
 
 html {
   scroll-behavior: smooth;
@@ -62,6 +61,11 @@ a {
   color: inherit;
   display: inline-flex;
   text-underline-offset: 4px;
+  transition-duration: var(--transition-duration);
+
+  &:hover {
+    color: var(--color-gray);
+  }
 }
 
 img {
@@ -70,12 +74,4 @@ img {
 
 button {
   font: inherit;
-}
-
-a {
-  transition-duration: var(--transition-duration);
-
-  &:hover {
-    color: var(--color-gray);
-  }
 }
