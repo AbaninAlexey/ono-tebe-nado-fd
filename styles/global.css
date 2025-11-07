@@ -60,7 +60,7 @@ h3 {
 a {
   color: inherit;
   display: inline-flex;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
   transition-duration: var(--transition-duration);
 
   &:hover {
