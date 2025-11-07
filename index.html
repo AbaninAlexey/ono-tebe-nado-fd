@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="styles/global.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-</head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+  </head>
   <body>
     <header class="header container-small">
       <div class="header__inner">
         <div class="header__main">
-          <nav class="header__menu">
-            <ul class="header__menu-list">
-              <li class="header__menu-item">
-                <a href="#hero" class="header__menu-link"> главная </a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a
+                  href="#hero"
+                  class="menu__link menu__link--is-active"
+                >
+                  главная
+                </a>
               </li>
-              <li
-                class="header__menu-item header__menu-item--rounded header__menu-item--underline"
-              >
-                <a href="#products-title" class="header__menu-link">
+              <li class="menu__item">
+                <a href="#products-title" class="menu__link">
                   посмотреть лоты
                 </a>
               </li>
-              <li
-                class="header__menu-item header__menu-item--rounded header__menu-item--underline"
-              >
-                <a href="#about" class="header__menu-link"> об аукционе </a>
+              <li class="menu__item">
+                <a href="#about" class="menu__link"> об аукционе </a>
               </li>
             </ul>
           </nav>
-          <a href="#" class="header__logo logo">
+          <a class="header__logo logo">
             <img
-              src="/images/logo-black.svg"
+              src="./images/logo-black.svg"
               class="logo__image"
               alt="оно тебе надо"
               width="148"
@@ -94,52 +95,59 @@
           <div class="products__main">
             <ul class="products__list">
               <li class="products__item">
-                <div class="products__card">
-                  <h3 class="products__card-title">
-                    Фильм режиссёра, который бросил киношколу
-                  </h3>
-                  <div class="products__card-body">
-                    <p>
-                      Не просто бросил, а ушёл с первой лекции. Какой была бы
-                      ваша ставка, если бы вы не знали, что режиссёр — Пол Томас
-                      Андерсон?
-                    </p>
-                  </div>
-                </div>
+                <a href="#" class="products__link">
+                  <article class="products__card products__card--left">
+                    <h3 class="products__card-title">
+                      Фильм режиссёра, который бросил киношколу
+                    </h3>
+                    <div class="products__card-body">
+                      <p>
+                        Не просто бросил, а ушёл с первой лекции. Какой была бы
+                        ваша ставка, если бы вы не знали, что режиссёр — Пол
+                        Томас Андерсон?
+                      </p>
+                    </div>
+                  </article>
+                </a>
               </li>
               <li class="products__item">
-                <div class="products__card">
-                  <h3 class="products__card-title">
-                    Книга, где описан один скучный день из жизни рекламного
-                    агента
-                  </h3>
-                  <div class="products__card-body">
-                    <p>
-                      Объёмом почти в тысячу страниц. Иногда без знаков
-                      препинания и с переходами на древнеанглийский. В ней
-                      одновременно рассказывается о 16 июня 1904 года и об
-                      истории литературы, начиная с античных времён. И это всё
-                      накладывается на эпическую поэму Гомера. Сколько бы вы
-                      поставили на «Улисса» Джеймса Джойса?
-                    </p>
-                  </div>
-                </div>
+                <a href="#" class="products__link">
+                  <article class="products__card products__card--center">
+                    <h3 class="products__card-title">
+                      Книга, где описан один скучный день из жизни рекламного
+                      агента
+                    </h3>
+                    <div class="products__card-body">
+                      <p>
+                        Объёмом почти в тысячу страниц. Иногда без знаков
+                        препинания и с переходами на древнеанглийский. В ней
+                        одновременно рассказывается о 16 июня 1904 года и об
+                        истории литературы, начиная с античных времён. И это всё
+                        накладывается на эпическую поэму Гомера. Сколько бы вы
+                        поставили на «Улисса» Джеймса Джойса?
+                      </p>
+                    </div>
+                  </article>
+                </a>
               </li>
               <li class="products__item">
-                <div class="products__card">
-                  <h3 class="products__card-title">
-                    Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h3>
-                  <div class="products__card-body">
-                    <p>
-                      Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                      что-то похожее на инфузорию-туфельку. Никаких полей,
-                      лесов, котиков... Сколько бы вы на такое поставили, если
-                      бы не знали, что это — одна из революционных работ
-                      Кандинского?
-                    </p>
-                  </div>
-                </div>
+                <a href="" class="products__link">
+                  <article class="products__card products__card--right">
+                    <h3 class="products__card-title">
+                      Картина, которую повторит даже 5-летний сын маминой
+                      подруги
+                    </h3>
+                    <div class="products__card-body">
+                      <p>
+                        Ну действительно, там линия, тут кружочек, а здесь и
+                        вовсе что-то похожее на инфузорию-туфельку. Никаких
+                        полей, лесов, котиков... Сколько бы вы на такое
+                        поставили, если бы не знали, что это — одна из
+                        революционных работ Кандинского?
+                      </p>
+                    </div>
+                  </article>
+                </a>
               </li>
             </ul>
           </div>
@@ -185,15 +193,15 @@
     </main>
     <footer class="footer container-small">
       <div class="footer__inner">
-        <address class="footer__info info info--lagre-width">
+        <address class="footer__info info">
           <ul class="info__list">
             <li class="info__link">
-              <a href="tel:+99995555555" class="info__number">
+              <a href="tel:+99995555555" class="info__link">
                 +9 999 555 5555
               </a>
             </li>
             <li class="info__link">
-              <a href="mailto:info@sobaka.ge" class="info__number">
+              <a href="mailto:info@sobaka.ge" class="info__link">
                 info@sobaka.ge
               </a>
             </li>
@@ -202,24 +210,29 @@
             </li>
           </ul>
         </address>
-        <nav class="header__menu">
-          <ul class="header__menu-list header__menu-list--column">
-            <li class="header__menu-item">
-              <a href="#hero" class="header__menu-link"> главная </a>
-            </li>
-            <li class="header__menu-item header__menu-item--underline">
-              <a href="#products-title" class="header__menu-link">
-                посмотреть лоты
-              </a>
-            </li>
-            <li class="header__menu-item header__menu-item--underline">
-              <a href="#about" class="header__menu-link"> об аукционе </a>
-            </li>
-          </ul>
-        </nav>
+         <nav class="footer__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a
+                  href="#hero"
+                  class="menu__link menu__link--is-active"
+                >
+                  главная
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#products-title" class="menu__link">
+                  посмотреть лоты
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#about" class="menu__link"> об аукционе </a>
+              </li>
+            </ul>
+          </nav>
         <div class="footer__socials socials">
           <ul class="socials__list">
-            <li class="socilas__item">
+            <li class="socials__item">
               <a href="#" class="socials__link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
